@@ -1,7 +1,7 @@
 // Initialize the panorama viewer
 pannellum.viewer('panorama', {
     type: 'equirectangular',
-    panorama: 'images/photo1.jpg', // Default photo
+    panorama: 'photo1.jpg', // Default photo
     autoLoad: true,
     hotSpots: [
         {
