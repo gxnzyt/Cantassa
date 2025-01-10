@@ -14,7 +14,7 @@ pannellum.viewer('panorama', {
     ],
     scenes: {
         photo2: {
-            panorama: 'images/photo2.jpg'
+            panorama: 'photo2.jpg'
         }
     }
 });
