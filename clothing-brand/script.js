@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => 
   const cookiePopup = document.getElementById('cookie-popup');
   const acceptButton = document.getElementById('accept-cookies');
 
