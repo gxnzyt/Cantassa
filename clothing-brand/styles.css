@@ -120,6 +120,22 @@ h1, h2, h3 {
     transform: translateY(-10px);
 }
 
+.primary-button {
+    padding: 10px 20px;
+    color: white;
+    background-color: darkred;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+}
+
+.primary-button:hover {
+    background-color: #a00000;
+}
+
 /* Cookie Popup */
 .cookie-popup {
     position: fixed;
