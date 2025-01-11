@@ -14,5 +14,31 @@
       <a href="tours/tour2.html" class="tour-button">Tour 2: Urban Explorations</a>
     </div>
   </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-container">
+      <div class="policies">
+        <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | <a href="#">Cookie Policy</a>
+      </div>
+      <div class="subscribe">
+        <form id="subscribe-form">
+          <label for="email">Subscribe to our newsletter:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Handle email subscription form submission
+    document.getElementById('subscribe-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const email = document.getElementById('email').value;
+      alert(`Thank you for subscribing, ${email}!`);
+      document.getElementById('subscribe-form').reset(); // Clear form after submission
+    });
+  </script>
 </body>
 </html>
