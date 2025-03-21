@@ -1,9 +1,10 @@
+html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cantassa: For Clients</title>
+<title>Cantassa: Contact Us</title>
 <link rel="stylesheet" href="css/style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -27,26 +28,28 @@
 <main>
 <section class="page-header">
 <div class="container">
-<h2>For Clients</h2>
-<p>Get Custom Thumbnails That Drive Results</p>
+<h2>Contact Us</h2>
+<p>We'd love to hear from you.</p>
 </div>
 </section>
 
-<section class="benefits">
+<section class="contact-form">
 <div class="container">
-<h3>Benefits of Choosing Cantassa</h3>
-<ul>
-<li>Attract More Viewers</li>
-<li>Increase Click-Through Rate</li>
-<li>Strengthen Your Brand</li>
-<li>Save Time and Effort</li>
-</ul>
+<form>
+<div class="form-group">
+<label for="name">Name</label>
+<input type="text" id="name" name="name" placeholder="Your Name">
 </div>
-</section>
-
-<section class="cta">
-<div class="container">
-<a href="contact.html" class="cta-button">Get a Custom Quote</a>
+<div class="form-group">
+<label for="email">Email</label>
+<input type="email" id="email" name="email" placeholder="Your Email">
+</div>
+<div class="form-group">
+<label for="message">Message</label>
+<textarea id="message" name="message" placeholder="Your Message"></textarea>
+</div>
+<button type="submit" class="cta-button">Send Message</button>
+</form>
 </div>
 </section>
 </main>
